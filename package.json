@@ -1,7 +1,7 @@
 {
   "name": "test_server",
   "version": "1.0.0",
-  "description": "This is a test node server",
+  "description": "Breaking into Tech exercises. This will act as the web server serving up the web pages for the exercise.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.1"
+    "express": "^4.16.2",
+    "nodemon": "^1.12.1"
+  },
+  "engines": {
+    "node": "6.11.0"
   }
 }

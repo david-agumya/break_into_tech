@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Breaking into Tech | Home </title>
+    <title>Problem 4 and Problem 5 | Card Shuffling and Stock Price Computation </title>
     <link rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
           integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
           crossorigin="anonymous">
     <link rel="stylesheet"
-          href="./stylesheets/custom.css">
+          href="custom.css">
 </head>
 <body>
 <!-- Main container-->
@@ -25,7 +25,7 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <ul class="nav nav-tabs">
                     <li class="nav-item">
-                        <a class="nav-link active" href="./home.html">Home</a>
+                        <a class="nav-link" href="./home.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./problem1.html">Problem 1</a>
@@ -37,7 +37,7 @@
                         <a class="nav-link" href="./problem3.html">Problem 3</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./problem4.html">Problem 4</a>
+                        <a class="nav-link active" href="./problem4.html">Problem 4</a>
                     </li>
                 </ul>
             </div>
@@ -51,22 +51,48 @@
     <!--Main Content-->
     <div class="main-content">
         <div class="jumbotron">
-            <h1 class="display-3">Hello, world!</h1>
-            <p class="lead"> Welcome to the Northeastern University Seattle Breaking into tech,
-                exercise portion.</p>
+            <h1 class="display-4">Advanced Problems</h1>
             <hr class="my-4">
-            <p>Remember a program in comprised of input, logical and some form of output. These simple programs
-                will help us understand how you can break down a problem and code out the solution for it.</p>
-            <p>In this case the input will have to be provided by you the user by entering the input and pressing the
-                submit button.</p>
-            <p>The program will take your input and add some logic to it, according to the rules of the games and then
-                it will return the result to you, the user in the form of a message.</p>
-            <p class="lead">
-                <a class="btn btn-primary btn-lg" href="./problem1.html" role="button">Proceed to Problem 1</a>
-            </p>
+            <p> For Problem 4: Design a Python program to shuffle a deck of card using the module random and draw 5 cards.</p>
+            <p> For Problem 5: Design a Python program to calculate and print the averages of stock prices for a list of companies.</p>
+            <ul>
+                <li> [GOOG] Google, Inc. </li>
+                <li> [YHOO] Yahoo! Inc. </li>
+                <li> [CNET] CNET Networks, Inc. </li>
+                <li> [MSFT] Microsoft, Inc. </li>
+            </ul>
         </div>
     </div>
+    <div class="jumbotron">
+        <div class="downloadSection">
+                <a href="https://www.python.org/downloads/">
+                   <button> Download Python </button> 
+                </a>
+                <p> You need Python to run the following scripts you are about to download. </p>
+                <p> Installation instruction are on the web site you will be re directed to</p>
+                <a href="http://localhost:4040/downloadpr4">
+                    <button class="btn-lg btn-primary" id="download_pr4"> Download problem 4 Python Script </button>
+                </a>
+                <a href="http://localhost:4040/downloadpr5">
+                    <button class="btn-lg btn-primary" id="download_pr5"> Download problem 5 Python Script and CSV files </button>
+                </a>
 
+                <p> After installing python and downloading the scripts </p>
+                <p> Go to the folder you downloaded the file i.e "Downloads"</p>
+                <p> Open command prompt or Terminal </p>
+                <ul>
+                    <li> For Mac Users, press Spacebar and Command together and type in "Terminal" press enter</li>
+                    <li> For Windows user, type CMD on your search Bar</li>
+                        <ul>
+                            <li> [cd] change directory  </li>
+                            <li> [dir] access directory </li>
+                        </ul>
+                </ul>
+                <p> Run [Python problem4.py] </p>
+                <p> Run [Python problem5.py] after </p>
+        </div>
+
+    </div>
 </div> <!-- end of main container -->
 <!-- Bootstrap Scripts -->
 <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
@@ -78,5 +104,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
         integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
         crossorigin="anonymous"></script>
+<!--Custom Scripts-->
+<script src="./problem4_script.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>
