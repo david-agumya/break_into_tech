@@ -13,6 +13,10 @@ app.get('/downloadpr5', function(req, res){
 	res.download(file); // Set disposition and send it.
 });
 
+app.get('/', function(req, res){
+	res.sendFile('/public/home.html');
+})
+
 
 
 app.listen(4040, function(){
