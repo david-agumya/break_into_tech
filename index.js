@@ -1,5 +1,6 @@
 var express = require("express");
 var app = express();
+var path = require('path');
 // Serve static files
 app.use(express.static(__dirname + '/public'));
 
@@ -14,7 +15,7 @@ app.get('/downloadpr5', function(req, res){
 });
 
 app.get('/', function(req, res){
-	res.sendFile('/public/home.html');
+	res.sendFile(path.join(__dirname + '/public/home.html'));
 })
 
 
