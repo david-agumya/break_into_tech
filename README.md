@@ -1,6 +1,6 @@
 # Break into tech website server files
 ---
-This website contains some exercises to introduce people without a background in programming to programming. The simple exercises are meant to gauge the intrest of new students in the computer science.
+This website contains some exercises to introduce people without a background in programming to programming. The simple exercises are meant to gauge the interest of new students in the computer science.
 
 # Technology
 ---
