@@ -5,13 +5,13 @@
 meant to gauge the intrest of new students in the computer science. 
 
 
-#Technology
+# Technology
 ---
 + HTML 
 + CSS
 + Javascript
 
-#Credit
+# Credit
 ---
 Designed and implemented by David G Agumya
 
